@@ -5,7 +5,7 @@ AI Governance Foundations: Principles, Roles and Lifecycle Controls
 
 مسار التنفيذيين والقادة · أكاديمية سدايا · LDS-AIG-201 · المستوى 200
 
-REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك فعله بعد المقرر
+تحوّل مبادئ الذكاء الاصطناعي المسؤول إلى ضوابط تعمل: سجل للأنظمة، وتصنيف متناسب للمخاطر، ومساءلة واضحة، وبوابات من الاستقبال إلى الإيقاف
 
 يحوّل المشاركون مبادئ الذكاء الاصطناعي المسؤول إلى ضوابط يستطيع الفريق تشغيلها ويستطيع المدقق التحقق منها. ويعملون على جهة افتراضية واحدة من القطاع العام لديها 30 نظام ذكاء اصطناعي قيد الاستخدام أو التطوير، فيبنون سجلًا لأنظمة الذكاء الاصطناعي، ويصنفون كل نظام بحسب مستوى مخاطره، ويحددون المساءلة بمصفوفة مسؤوليات، ويصممون بوابات مراجعة لكل مرحلة من دورة الحياة من الاستقبال حتى الإيقاف، ويصوغون سياسة للاستخدام المقبول تحدد الفئات المحظورة. ويختمون بحزمة حوكمة تأسيسية يدافعون عنها أمام لجنة حوكمة تجريبية.
 
@@ -30,9 +30,9 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | الوحدة | العنوان | الجلسات | الشرائح |
 |---|---|---|---|
-| اليوم 1 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day1.html`](slides/day1.html) |
-| اليوم 2 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day2.html`](slides/day2.html) |
-| اليوم 3 | REPLACE: موضوع هذه الوحدة في كلمات قليلة | REPLACE: عنوان الجلسة 1; REPLACE: عنوان الجلسة 2; REPLACE: عنوان الجلسة 3; REPLACE: عنوان الجلسة 4 | [`slides/day3.html`](slides/day3.html) |
+| اليوم 1 | من المبادئ إلى السجل | من المبدأ إلى الدليل; المبادئ الوطنية والأطر الدولية; ما الذي يُعد نظام ذكاء اصطناعي; ما لم يُصرَّح عنه | [`slides/day1.html`](slides/day1.html) |
+| اليوم 2 | المخاطر والمساءلة | أربعة مستويات وخمسة عوامل; التناسب والحالات الحدّية; من يقرر; التصعيد وخطوط الدفاع | [`slides/day2.html`](slides/day2.html) |
+| اليوم 3 | السياسات وبوابات دورة الحياة | سياسة الاستخدام المقبول; اختبار السياسة والتوثيق; بوابات من الاستقبال إلى الإيقاف; حوكمة تعمل | [`slides/day3.html`](slides/day3.html) |
 | المشروع الختامي | عروض المشروع الختامي |  | [`slides/capstone.html`](slides/capstone.html) |
 <!-- /academy:units -->
 
@@ -47,18 +47,18 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 
 | | الجلسة | المختبر | الملف |
 |---|---|---|---|
-| 1.1 | اليوم 1 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 1.1 | [`D1_1.html`](labs/D1_1.html) |
-| 1.2 | اليوم 1 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 1.2 | [`D1_2.html`](labs/D1_2.html) |
-| 1.3 | اليوم 1 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 1.3 | [`D1_3.html`](labs/D1_3.html) |
-| 1.4 | اليوم 1 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 1.4 | [`D1_4.html`](labs/D1_4.html) |
-| 2.1 | اليوم 2 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 2.1 | [`D2_1.html`](labs/D2_1.html) |
-| 2.2 | اليوم 2 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 2.2 | [`D2_2.html`](labs/D2_2.html) |
-| 2.3 | اليوم 2 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 2.3 | [`D2_3.html`](labs/D2_3.html) |
-| 2.4 | اليوم 2 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 2.4 | [`D2_4.html`](labs/D2_4.html) |
-| 3.1 | اليوم 3 · الجلسة 1 | REPLACE: ما يبنيه المشاركون في المختبر 3.1 | [`D3_1.html`](labs/D3_1.html) |
-| 3.2 | اليوم 3 · الجلسة 2 | REPLACE: ما يبنيه المشاركون في المختبر 3.2 | [`D3_2.html`](labs/D3_2.html) |
-| 3.3 | اليوم 3 · الجلسة 3 | REPLACE: ما يبنيه المشاركون في المختبر 3.3 | [`D3_3.html`](labs/D3_3.html) |
-| 3.4 | اليوم 3 · الجلسة 4 | REPLACE: ما يبنيه المشاركون في المختبر 3.4 | [`D3_4.html`](labs/D3_4.html) |
+| 1.1 | اليوم 1 · الجلسة 1 | ست طبقات وضابط يعمل | [`D1_1_layers.html`](labs/D1_1_layers.html) |
+| 1.2 | اليوم 1 · الجلسة 2 | خريطة المبادئ والضوابط | [`D1_2_principle_map.html`](labs/D1_2_principle_map.html) |
+| 1.3 | اليوم 1 · الجلسة 3 | السجل من المقابلات | [`D1_3_inventory_interviews.html`](labs/D1_3_inventory_interviews.html) |
+| 1.4 | اليوم 1 · الجلسة 4 | البحث عن الخمسة | [`D1_4_undeclared.html`](labs/D1_4_undeclared.html) |
+| 2.1 | اليوم 2 · الجلسة 1 | تصنيف ثلاثين نظامًا | [`D2_1_tiering.html`](labs/D2_1_tiering.html) |
+| 2.2 | اليوم 2 · الجلسة 2 | ثلاث حالات حدّية | [`D2_2_borderline.html`](labs/D2_2_borderline.html) |
+| 2.3 | اليوم 2 · الجلسة 3 | المساءل والمسؤول | [`D2_3_accountable.html`](labs/D2_3_accountable.html) |
+| 2.4 | اليوم 2 · الجلسة 4 | المصفوفة الكاملة ومسارات التصعيد | [`D2_4_raci.html`](labs/D2_4_raci.html) |
+| 3.1 | اليوم 3 · الجلسة 1 | مسودة السياسة | [`D3_1_aup.html`](labs/D3_1_aup.html) |
+| 3.2 | اليوم 3 · الجلسة 2 | عشرة سيناريوهات | [`D3_2_scenarios.html`](labs/D3_2_scenarios.html) |
+| 3.3 | اليوم 3 · الجلسة 3 | مواصفات البوابات | [`D3_3_gates.html`](labs/D3_3_gates.html) |
+| 3.4 | اليوم 3 · الجلسة 4 | نظامان عبر البوابات | [`D3_4_two_systems.html`](labs/D3_4_two_systems.html) |
 <!-- /academy:labs -->
 
 ## المشروع الختامي
@@ -86,7 +86,26 @@ REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك
 <!-- academy:sources -->
 ## المصادر
 
-- REPLACE: كل مصدر يستشهد به المقرر مع عنوانه، في course.json ضمن "sources"؛ هذه القائمة تُكتب من هناك
+### المراجع الوطنية
+
+- [سدايا: الأنظمة والسياسات (صفحة الفهرس)](https://sdaia.gov.sa/ar/SDAIA/about/Pages/RegulationsAndPolicies.aspx)
+- [مبادئ أخلاقيات الذكاء الاصطناعي (SDAIA-P114E)](https://sdaia.gov.sa/ar/SDAIA/about/Documents/ai-principles.pdf)
+- [AI Ethics Principles (English edition)](https://sdaia.gov.sa/en/SDAIA/about/Documents/ai-principles.pdf)
+- [مبادئ الذكاء الاصطناعي التوليدي للجهات الحكومية (SDAIA-P116E)](https://sdaia.gov.sa/ar/SDAIA/about/Files/GenAIGuidelinesForGovernmentARCompressed.pdf)
+- [Generative AI Guidelines for Government (English edition)](https://sdaia.gov.sa/en/SDAIA/about/Files/GenAIGuidelinesForGovernmentENCompressed.pdf)
+- [إطار تبني الذكاء الاصطناعي (SDAIA-P121)](https://sdaia.gov.sa/ar/SDAIA/about/Files/AIAdoptionFramework.pdf)
+- [الإطار الوطني لإدارة مخاطر الذكاء الاصطناعي (SDAIA-P145)](https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/ExecutiveSummaryAr.pdf)
+- [National AI Risk Management Framework: executive summary (SDAIA-P145EN)](https://sdaia.gov.sa/en/MediaCenter/KnowledgeCenter/ResearchLibrary/ExecutiveSummaryEn.pdf)
+- [أدوات تنظيم سوق الذكاء الاصطناعي: وسوم الأخلاقيات وشهادات اعتماد مقدمي الخدمات](https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/AIMarketGovernanceTools.pdf)
+- [نظام حماية البيانات الشخصية](https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawAr.pdf)
+- [اللائحة التنفيذية لنظام حماية البيانات الشخصية](https://sdaia.gov.sa/ar/SDAIA/about/Documents/ImplementingRegulationPersonalDataProtectionLawAr.pdf)
+- [سياسة تصنيف البيانات (مكتب إدارة البيانات الوطنية)](https://sdaia.gov.sa/ar/SDAIA/about/Documents/DataClassificationPolicyAr.pdf)
+
+### الأطر الدولية
+
+- [OECD AI Principles (updated May 2024)](https://oecd.ai/en/ai-principles)
+- [NIST AI Risk Management Framework 1.0 (NIST AI 100-1)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)
+- [NIST: AI Risk Management Framework (page)](https://www.nist.gov/itl/ai-risk-management-framework)
 <!-- /academy:sources -->
 
 ### المرجعيات الوطنية

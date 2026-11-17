@@ -1,0 +1,25 @@
+{
+ "undeclared": {
+  "S02": {
+   "source": "network",
+   "record": "asr.voicecloud.example"
+  },
+  "S11": {
+   "source": "procurement",
+   "record": "PO-26-0151"
+  },
+  "S15": {
+   "source": "expense",
+   "record": "EX-0711"
+  },
+  "S21": {
+   "source": "network",
+   "record": "api.textgen-public.example"
+  },
+  "S30": {
+   "source": "procurement",
+   "record": "PO-26-0302"
+  }
+ },
+ "total": 30
+}

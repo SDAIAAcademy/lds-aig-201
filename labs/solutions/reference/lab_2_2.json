@@ -1,0 +1,23 @@
+{
+ "borderline": {
+  "S02": "H",
+  "S06": "H",
+  "S10": "H"
+ },
+ "changed": [
+  {
+   "id": "S10",
+   "factor": "A",
+   "value": 1,
+   "before": "H",
+   "after": "L"
+  },
+  {
+   "id": "S05",
+   "factor": "A",
+   "value": 3,
+   "before": "L",
+   "after": "H"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+[
+ {
+  "id": "G01",
+  "layer": "مبدأ",
+  "missing": null
+ },
+ {
+  "id": "G02",
+  "layer": "مبدأ",
+  "missing": null
+ },
+ {
+  "id": "G03",
+  "layer": "سياسة",
+  "missing": null
+ },
+ {
+  "id": "G04",
+  "layer": "سياسة",
+  "missing": null
+ },
+ {
+  "id": "G05",
+  "layer": "سياسة",
+  "missing": null
+ },
+ {
+  "id": "G06",
+  "layer": "معيار",
+  "missing": null
+ },
+ {
+  "id": "G07",
+  "layer": "معيار",
+  "missing": null
+ },
+ {
+  "id": "G08",
+  "layer": "إجراء",
+  "missing": null
+ },
+ {
+  "id": "G09",
+  "layer": "إجراء",
+  "missing": null
+ },
+ {
+  "id": "G10",
+  "layer": "إجراء",
+  "missing": null
+ },
+ {
+  "id": "G11",
+  "layer": "ضابط",
+  "missing": []
+ },
+ {
+  "id": "G12",
+  "layer": "ضابط",
+  "missing": []
+ },
+ {
+  "id": "G13",
+  "layer": "ضابط",
+  "missing": [
+   "المالك",
+   "المحفّز",
+   "الاختبار"
+  ]
+ },
+ {
+  "id": "G14",
+  "layer": "ضابط",
+  "missing": [
+   "المحفّز",
+   "التكرار",
+   "الاختبار"
+  ]
+ },
+ {
+  "id": "G15",
+  "layer": "ضابط",
+  "missing": [
+   "المالك",
+   "المحفّز",
+   "الاختبار"
+  ]
+ },
+ {
+  "id": "G16",
+  "layer": "ضابط",
+  "missing": [
+   "المالك",
+   "التكرار",
+   "الاختبار"
+  ]
+ },
+ {
+  "id": "G17",
+  "layer": "دليل",
+  "missing": null
+ },
+ {
+  "id": "G18",
+  "layer": "دليل",
+  "missing": null
+ }
+]
