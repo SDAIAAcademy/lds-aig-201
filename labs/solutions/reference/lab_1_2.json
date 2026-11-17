@@ -1,0 +1,98 @@
+{
+ "operable": [
+  "CC01",
+  "CC02",
+  "CC04",
+  "CC05",
+  "CC06",
+  "CC08",
+  "CC09",
+  "CC12"
+ ],
+ "map": {
+  "P1": {
+   "controls": [
+    "CC01"
+   ],
+   "oecd": [
+    "O2"
+   ],
+   "nist": [
+    "MEASURE"
+   ]
+  },
+  "P2": {
+   "controls": [
+    "CC02"
+   ],
+   "oecd": [
+    "O2",
+    "O4"
+   ],
+   "nist": [
+    "MAP",
+    "MANAGE"
+   ]
+  },
+  "P3": {
+   "controls": [
+    "CC04"
+   ],
+   "oecd": [
+    "O2",
+    "O1"
+   ],
+   "nist": [
+    "GOVERN",
+    "MAP"
+   ]
+  },
+  "P4": {
+   "controls": [
+    "CC05"
+   ],
+   "oecd": [
+    "O1"
+   ],
+   "nist": [
+    "MAP",
+    "MEASURE"
+   ]
+  },
+  "P5": {
+   "controls": [
+    "CC06"
+   ],
+   "oecd": [
+    "O4"
+   ],
+   "nist": [
+    "MEASURE"
+   ]
+  },
+  "P6": {
+   "controls": [
+    "CC08"
+   ],
+   "oecd": [
+    "O3"
+   ],
+   "nist": [
+    "MEASURE",
+    "MANAGE"
+   ]
+  },
+  "P7": {
+   "controls": [
+    "CC09",
+    "CC12"
+   ],
+   "oecd": [
+    "O5"
+   ],
+   "nist": [
+    "GOVERN"
+   ]
+  }
+ }
+}

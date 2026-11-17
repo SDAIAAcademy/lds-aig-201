@@ -1,0 +1,41 @@
+# أسس حوكمة الذكاء الاصطناعي: المبادئ والأدوار وضوابط دورة الحياة
+
+> تحوّل مبادئ الذكاء الاصطناعي المسؤول إلى ضوابط تعمل: سجل للأنظمة، وتصنيف متناسب للمخاطر، ومساءلة واضحة، وبوابات من الاستقبال إلى الإيقاف. مقرر من أكاديمية سدايا، الرمز LDS-AIG-201، الإصدار 2027.1.0، بالعربية.
+
+كل شريحة عنوان مثل "#### [day1#slide-id] العنوان": استشهد بالشرائح بهذا المعرّف، وكل استشهاد رابط (slides/day1.html#slide-id). هذه الملفات هي ما يراه المشارك: لا ملاحظات المدرّب فيها ولا مفاتيح الإجابة.
+
+## المقرر
+
+- [صفحة المقرر](https://sdaiaacademy.github.io/lds-aig-201/index.md): نظرة عامة ونواتج التعلم والجدول والمختبرات؛ الصفحة نفسها https://sdaiaacademy.github.io/lds-aig-201/index.html
+- [المقرر كاملًا](https://sdaiaacademy.github.io/lds-aig-201/llms-full.txt): كل وحدة وجلسة وشريحة في ملف واحد، نحو 23,931 من الوحدات النصية
+- [أسئلة التدريب](https://sdaiaacademy.github.io/lds-aig-201/practice.html): أسئلة تختبر بها نفسك، مع تعليل بعد كل إجابة
+
+## الشرائح
+
+- [اليوم 1: من المبادئ إلى السجل](https://sdaiaacademy.github.io/lds-aig-201/slides/day1.md): كيف يصبح المبدأ ضابطًا له مالك ودليل، وكيف تعرف الجهة أنظمة الذكاء الاصطناعي التي تملكها فعلًا؛ الجلسات: من المبدأ إلى الدليل، المبادئ الوطنية والأطر الدولية، ما الذي يُعد نظام ذكاء اصطناعي، ما لم يُصرَّح عنه؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/slides/day1.html؛ نحو 7,295 من الوحدات النصية
+- [اليوم 2: المخاطر والمساءلة](https://sdaiaacademy.github.io/lds-aig-201/slides/day2.md): تصنيف متناسب للمخاطر بأسباب مكتوبة، ودور مساءل واحد لكل قرار، ومسار تصعيد يعمل وقت الحادث؛ الجلسات: أربعة مستويات وخمسة عوامل، التناسب والحالات الحدّية، من يقرر، التصعيد وخطوط الدفاع؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/slides/day2.html؛ نحو 7,016 من الوحدات النصية
+- [اليوم 3: السياسات وبوابات دورة الحياة](https://sdaiaacademy.github.io/lds-aig-201/slides/day3.md): سياسة استخدام يحسم بها الموظف حالته، وبوابات من الاستقبال إلى الإيقاف بقدر المخاطر، وحوكمة تقاس؛ الجلسات: سياسة الاستخدام المقبول، اختبار السياسة والتوثيق، بوابات من الاستقبال إلى الإيقاف، حوكمة تعمل؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/slides/day3.html؛ نحو 7,185 من الوحدات النصية
+- [المشروع الختامي: عروض المشروع الختامي](https://sdaiaacademy.github.io/lds-aig-201/slides/capstone.md): كل مشارك يعرض حزمته في ثماني دقائق، ثم تعترض اللجنة الصورية على قرارين وتغيّر واقعة عن نظام في سبع دقائق؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/slides/capstone.html؛ نحو 1,688 من الوحدات النصية
+
+## المختبرات
+
+- [المختبر 1.1: ست طبقات وضابط يعمل](https://sdaiaacademy.github.io/lds-aig-201/labs/D1_1_layers.md): اليوم 1، الجلسة 1، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D1_1_layers.html
+- [المختبر 1.2: خريطة المبادئ والضوابط](https://sdaiaacademy.github.io/lds-aig-201/labs/D1_2_principle_map.md): اليوم 1، الجلسة 2، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D1_2_principle_map.html
+- [المختبر 1.3: السجل من المقابلات](https://sdaiaacademy.github.io/lds-aig-201/labs/D1_3_inventory_interviews.md): اليوم 1، الجلسة 3، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D1_3_inventory_interviews.html
+- [المختبر 1.4: البحث عن الخمسة](https://sdaiaacademy.github.io/lds-aig-201/labs/D1_4_undeclared.md): اليوم 1، الجلسة 4، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D1_4_undeclared.html
+- [المختبر 2.1: تصنيف ثلاثين نظامًا](https://sdaiaacademy.github.io/lds-aig-201/labs/D2_1_tiering.md): اليوم 2، الجلسة 1، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D2_1_tiering.html
+- [المختبر 2.2: ثلاث حالات حدّية](https://sdaiaacademy.github.io/lds-aig-201/labs/D2_2_borderline.md): اليوم 2، الجلسة 2، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D2_2_borderline.html
+- [المختبر 2.3: المساءل والمسؤول](https://sdaiaacademy.github.io/lds-aig-201/labs/D2_3_accountable.md): اليوم 2، الجلسة 3، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D2_3_accountable.html
+- [المختبر 2.4: المصفوفة الكاملة ومسارات التصعيد](https://sdaiaacademy.github.io/lds-aig-201/labs/D2_4_raci.md): اليوم 2، الجلسة 4، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D2_4_raci.html
+- [المختبر 3.1: مسودة السياسة](https://sdaiaacademy.github.io/lds-aig-201/labs/D3_1_aup.md): اليوم 3، الجلسة 1، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D3_1_aup.html
+- [المختبر 3.2: عشرة سيناريوهات](https://sdaiaacademy.github.io/lds-aig-201/labs/D3_2_scenarios.md): اليوم 3، الجلسة 2، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D3_2_scenarios.html
+- [المختبر 3.3: مواصفات البوابات](https://sdaiaacademy.github.io/lds-aig-201/labs/D3_3_gates.md): اليوم 3، الجلسة 3، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D3_3_gates.html
+- [المختبر 3.4: نظامان عبر البوابات](https://sdaiaacademy.github.io/lds-aig-201/labs/D3_4_two_systems.md): اليوم 3، الجلسة 4، 35 دقيقة؛ الصفحة: https://sdaiaacademy.github.io/lds-aig-201/labs/D3_4_two_systems.html
+
+## ملفات السياق
+
+- [context/course.md](https://sdaiaacademy.github.io/lds-aig-201/context/course.md): المقرر كاملًا، لمساعد يقبل ملفًا مرفقًا، نحو 23,931 من الوحدات النصية
+- [context/day1.md](https://sdaiaacademy.github.io/lds-aig-201/context/day1.md): اليوم 1، نحو 7,295 من الوحدات النصية
+- [context/day2.md](https://sdaiaacademy.github.io/lds-aig-201/context/day2.md): اليوم 2، نحو 7,016 من الوحدات النصية
+- [context/day3.md](https://sdaiaacademy.github.io/lds-aig-201/context/day3.md): اليوم 3، نحو 7,185 من الوحدات النصية
+- [context/capstone.md](https://sdaiaacademy.github.io/lds-aig-201/context/capstone.md): المشروع الختامي، نحو 1,688 من الوحدات النصية

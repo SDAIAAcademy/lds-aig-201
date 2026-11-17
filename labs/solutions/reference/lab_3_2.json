@@ -1,0 +1,64 @@
+{
+ "SC01": {
+  "decision": "مسموح بشروط",
+  "clause": "4.1"
+ },
+ "SC02": {
+  "decision": "محظور",
+  "clause": "2.4"
+ },
+ "SC03": {
+  "decision": "مقيد بموافقة",
+  "clause": "3.2"
+ },
+ "SC04": {
+  "decision": "مسموح بشروط",
+  "clause": "3.5"
+ },
+ "SC05": {
+  "decision": "مقيد بموافقة",
+  "clause": "3.1"
+ },
+ "SC06": {
+  "decision": "محظور",
+  "clause": "2.4"
+ },
+ "SC07": {
+  "decision": "مقيد بموافقة",
+  "clause": "3.3"
+ },
+ "SC08": {
+  "decision": "محظور",
+  "clause": "3.4"
+ },
+ "SC09": {
+  "decision": "محظور",
+  "clause": "2.1"
+ },
+ "SC10": {
+  "decision": "مسموح بشروط",
+  "clause": "4.1"
+ },
+ "draft_resolves": [
+  "SC01",
+  "SC02",
+  "SC04",
+  "SC06",
+  "SC08",
+  "SC09",
+  "SC10"
+ ],
+ "genai_breaches": [
+  "S02",
+  "S09",
+  "S15",
+  "S19",
+  "S21",
+  "S30"
+ ],
+ "genai_ok": [
+  "S12",
+  "S14",
+  "S22"
+ ]
+}

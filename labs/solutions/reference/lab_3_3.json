@@ -1,0 +1,62 @@
+{
+ "G0|U": {
+  "approver": "R03",
+  "decision": "D01"
+ },
+ "G0|H": {
+  "approver": "R03",
+  "decision": "D01"
+ },
+ "G0|L": {
+  "approver": "R03",
+  "decision": "D01"
+ },
+ "G0|N": {
+  "approver": "R03",
+  "decision": "D01"
+ },
+ "G1|H": {
+  "approver": "R02",
+  "decision": "D04"
+ },
+ "G1|L": {
+  "approver": "R05",
+  "decision": "D03"
+ },
+ "G2|H": {
+  "approver": "R02",
+  "decision": "D05"
+ },
+ "G2|L": {
+  "approver": "R03",
+  "decision": "D06"
+ },
+ "G2|N": {
+  "approver": "R04",
+  "decision": null
+ },
+ "G3|H": {
+  "approver": "R02",
+  "decision": "D08"
+ },
+ "G3|L": {
+  "approver": "R03",
+  "decision": null
+ },
+ "G3|N": {
+  "approver": "R04",
+  "decision": null
+ },
+ "G4|H": {
+  "approver": "R02",
+  "decision": null
+ },
+ "G4|L": {
+  "approver": "R04",
+  "decision": "D11"
+ },
+ "G4|N": {
+  "approver": "R04",
+  "decision": null
+ }
+}
