@@ -82,8 +82,8 @@ def scale_band(people: int) -> int:
 
 
 AUTONOMY_TEXT = {
-    1: "مخرجاته معلومات يستعملها موظف ضمن عمله",
-    2: "يوصي بقرار أو إجراء يعتمده موظف في كل حالة",
+    1: "مخرجاته معلومات أو تنبيهات يستعملها موظف يتخذ القرار بنفسه، ولا يوصي النظام بقرار",
+    2: "يوصي بقرار أو إجراء بعينه يعتمده موظف في كل حالة",
     3: "يتصرف أو يقرر دون مراجعة بشرية لكل حالة",
 }
 
@@ -205,11 +205,11 @@ system(id="S11", name="فرز المتقدمين للوظائف", dept="HR", sou
        reversibility="المتقدم المستبعد لا يعلم ولا يتظلم عادة، وتفوته الفرصة",
        f=dict(I=3, A=2, S=2, R=2, D=2), found="procurement",
        why="يمس فرصة عمل، والأخصائي يعتمد الاستبعاد كما هو")
-system(id="S12", name="مساعد أسئلة الموظفين عن اللوائح الداخلية", dept="HR", source="ven", stage="prod",
-       purpose="يجيب الموظفين عن الإجازات والانتدابات من لوائح الهيئة",
+system(id="S12", name="مساعد أسئلة الموظفين عن لوائح الموارد البشرية", dept="HR", source="ven", stage="prod",
+       purpose="يولّد إجابات للموظفين عن الإجازات والانتدابات من لوائح الموارد البشرية المنشورة",
        users="موظفو الهيئة",
-       data="اللوائح الداخلية المنشورة للموظفين",
-       data_class="مقيد", people=4000, role=3,
+       data="لوائح الموارد البشرية المنشورة للعموم",
+       data_class="عام", people=4000, role=3,
        reversibility="الموظف يتحقق من الموارد البشرية قبل أي معاملة",
        f=dict(I=1, A=3, S=1, R=1, D=1),
        why="معلومات عامة للموظفين، ولا قرار بها: المجموع 7")
@@ -326,7 +326,7 @@ system(id="S26", name="تحليل نصوص استبانات الرضا", dept="B
        f=dict(I=1, A=1, S=2, R=1, D=2),
        why="تحليل مجمع لتقرير، والمحلل يراجع: المجموع 7")
 system(id="S27", name="مساعد البحث القانوني", dept="LEG", source="ven", stage="prod",
-       purpose="يبحث في الأنظمة والقضايا السابقة ويقترح المواد ذات الصلة",
+       purpose="يبحث في الأنظمة والقضايا السابقة ويرتب المواد ذات الصلة بالبحث الدلالي، دون أن يولّد نصًا",
        users="المستشارون القانونيون؛ ويتأثر أطراف القضايا",
        data="ملفات القضايا، وفيها بيانات جنائية وأمنية",
        data_class="سري", people=800, role=1,
@@ -380,9 +380,15 @@ assert UNDECLARED == ["S02", "S11", "S15", "S21", "S30"]
 assert SYS["S18"]["level"] == "N"  # a spam filter: little or no risk
 assert SYS["S17"]["level"] == "U"  # social scoring: unacceptable
 
+# Generative systems, and the ones that breach the national rule of the Generative AI principles for
+# government (nothing classified Restricted or higher in a generative tool), clause 2.4 of the reference policy.
+GENAI = ["S02", "S09", "S12", "S14", "S15", "S19", "S21", "S22", "S30"]
+GENAI_BREACH = [i for i in GENAI if SYS[i]["data_class"] != "عام"]
+assert GENAI_BREACH == ["S02", "S09", "S15", "S19", "S21", "S30"], GENAI_BREACH
+
 BORDERLINE = ["S02", "S06", "S10"]
 # changed facts for the drill (lab 2.2) and the committee: (system, factor, new value, fact)
 CHANGED = [
-    ("S10", "A", 1, "يُعدَّل النظام فيشير فقط إلى الوثائق الناقصة، ويقرر موظف الرفض بعد الاطلاع"),
+    ("S10", "A", 1, "يُعدَّل النظام فلا يرفض ولا يوصي بالرفض: ينبّه الموظف إلى الوثائق التي لم يتعرف عليها، ويفحص الموظف الطلب بنفسه ويقرر"),
     ("S05", "A", 3, "يُربط النظام بالتوجيه فيرسل فرقة إلى البؤرة آليًا دون تحقق المشغل"),
 ]

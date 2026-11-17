@@ -220,8 +220,8 @@ def l31():
     md = (HERE / "D3_1_aup.md").read_text(encoding="utf-8")
     for c in key["clauses"]:
         assert f"**{c['n']} {c['head']}.**" in md, c
-    body = md.split("أي أقل من صفحتين")[1]
-    words = len(body.split())
+    body = md.split("أي أقل من صفحتين")[1].split("ما يبحث عنه المدرب")[0]
+    words = len(re.sub(r"[*][*][^*]+[*][*]", "", body).split())
     assert words < 1600, words  # four pages of about 400 words
     print(f"  {len(key['clauses'])} clauses; about {words} words in the reference page")
 
@@ -242,6 +242,13 @@ def l32():
         if f"**{k['clause']} " in draft:
             resolved_draft += 1
     assert resolved_ref == 10 and resolved_draft == len(key["draft_resolves"]) == 7
+    inv = {r["رقم النظام"]: r for r in rows("inventory_day2.xlsx", "السجل")}
+    for sid in key["genai_breaches"]:
+        assert inv[sid]["تصنيف البيانات"] != "عام", sid
+        assert f"| {sid} " in (HERE / "D3_2_scenarios.md").read_text(encoding="utf-8"), sid
+    for sid in key["genai_ok"]:
+        assert inv[sid]["تصنيف البيانات"] == "عام", sid
+    print(f"  register against clause 2.4: generative systems with non-public data {key['genai_breaches']}")
     print(f"  reference policy resolves {resolved_ref} of 10; colleague draft {resolved_draft} of 10 (bar: 8)")
 
 
