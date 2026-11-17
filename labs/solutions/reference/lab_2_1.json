@@ -49,7 +49,7 @@
    "A": 1,
    "S": 2,
    "R": 2,
-   "D": 1
+   "D": 2
   },
   "prohibited": false,
   "level": "L"
@@ -82,7 +82,7 @@
    "A": 1,
    "S": 2,
    "R": 1,
-   "D": 1
+   "D": 2
   },
   "prohibited": false,
   "level": "N"
@@ -258,7 +258,7 @@
    "A": 2,
    "S": 1,
    "R": 1,
-   "D": 1
+   "D": 2
   },
   "prohibited": false,
   "level": "N"
