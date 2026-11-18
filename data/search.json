@@ -2,9 +2,9 @@
   "v": 1,
   "engine": "1.0.0",
   "build": {
-    "at": "2026-11-17T23:18:17Z",
+    "at": "2026-11-18T02:38:08Z",
     "version": "2027.1.0",
-    "commit": "5aeed52"
+    "commit": "d828b89"
   },
   "lang": "ar",
   "dir": "rtl",
